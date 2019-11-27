@@ -1,3 +1,6 @@
 [submodule "Project-Sandbox"]
 	path = Project-Sandbox
 	url = https://github.com/Julien29121998/Project-Sandbox.git
+[submodule "SandboxFront"]
+	path = SandboxFront
+	url = https://github.com/ivojuroro/SandboxFront.git
