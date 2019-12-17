@@ -42,18 +42,18 @@ group 3: 5
 javascript
 ### Example Code
 ```
-function fib(n) { 
-    if (n < 2) {
-    return 1;
-    }
-    
-    var a = 1, b = 1; 
-    for (var i = 2; i < n - 1 ;i++ ) { 
-        b = a + b;
-        a = b - a; 
-        } 
-        return a + b; 
-        }
+function fibonacci(num){
+  var a = 1, b = 0, temp;
+
+  while (num >= 0){
+    temp = a;
+    a = a + b;
+    b = temp;
+    num--;
+  }
+
+  return b;
+}
 
 ```
 ### Expected Return
